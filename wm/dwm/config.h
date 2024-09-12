@@ -76,6 +76,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_m,      spawn,          {.v = thunar} },
 	{ MODKEY|ControlMask|ShiftMask, XK_r,      spawn,          SHCMD("systemctl reboot")},
     	{ MODKEY|ControlMask|ShiftMask, XK_o,      spawn,          SHCMD("systemctl poweroff")},
+	{ MODKEY, 			XK_t,	   spawn, 	   {.v = (const char*[]){"/home/nikita/toggle-touchpad.sh", NULL}} },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
