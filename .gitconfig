@@ -1,0 +1,7 @@
+[user]
+	email = nnnmatveev@gmail.com
+	name = Nikita Matveev
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
