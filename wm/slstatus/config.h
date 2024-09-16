@@ -65,9 +65,7 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
     // function          format          argument 
-    { cpu_perc,          "CPU: %s%% | ", NULL },          // Использование процессора
-    { ram_perc,          "RAM: %s%% | ", NULL },          // Использование оперативной памяти
     { keymap,            "Lang: %s | ",  NULL },          // Текущая раскладка клавиатуры
     { battery_perc,      "Bat: %s%% | ", "BAT0" },        // Процент заряда батареи
-    { datetime,          "%s",           "%F %T" },       // Время и дата
+    { datetime,          "%s",   "%F %T" },       // Время и дата
 }; 

@@ -58,8 +58,6 @@
 #define HEIGHT(X)               ((X)->h + 2 * (X)->bw)
 #define TAGMASK                 ((1 << LENGTH(tags)) - 1)
 #define TEXTW(X)                (drw_fontset_getwidth(drw, (X)) + lrpad)
-#define ICONSPACING 5   // Задает отступ между иконкой и текстом
-#define ICONSIZE 35     // Задает размер иконки
 
 /* enums */
 enum { CurNormal, CurResize, CurMove, CurLast }; /* cursor */
