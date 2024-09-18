@@ -1,0 +1,14 @@
+IndentWidth: 8
+TabWidth: 8
+UseTab: Never
+
+AllowShortFunctionsOnASingleLine: None 
+BreakBeforeBraces: Attach
+SpaceAfterControlStatementKeyword: true
+
+AccessModifierOffset: -8
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+ConstructorInitializerIndentWidth: 0
+BreakConstructorInitializersBeforeComma: true
+ColumnLimit: 80
+
