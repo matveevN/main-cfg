@@ -1,7 +1,0 @@
-{
-  "inlayHint.enable": false,
-  "pairs.enableCharacters": ["(", "[", "\"", "'"],
-  "pairs.disableCharacters": ["{"]
-}
-
-

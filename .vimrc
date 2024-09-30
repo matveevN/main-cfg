@@ -23,6 +23,7 @@ set nowritebackup
 set updatetime=300
 
 nmap <C-f> :Files<CR>
+inoremap {<CR> {<CR>}<Esc>ko
 
 highlight CursorLine cterm=underline ctermbg=None 
 highlight CursorLine gui=underline  
@@ -43,7 +44,6 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 nnoremap <silent> K :call <SID>show_documentation()<CR>
-
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
     execute 'h '.expand('<cword>')
@@ -53,4 +53,5 @@ function! s:show_documentation()
 endfunction
 
 inoremap <silent><expr> <Tab> coc#pum#visible() ? coc#pum#confirm() : "\<Tab>"
+autocmd BufWritePost *.cpp,*.h silent! !clang-format -i %
 
