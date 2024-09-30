@@ -1,0 +1,2 @@
+Using method `randr'.
+ignoreboth or ignorespace present in bash HISTCONTROL setting, showing running command will not be robust
